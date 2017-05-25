@@ -1,6 +1,6 @@
 #ICEcoder
 
-## 这里是[破解过程](http://www.guotianyu.cn/2017/05/04/%E7%AC%94%E8%AE%B0/ICEcoder%E7%A0%B4%E8%A7%A3%E6%95%99%E7%A8%8B/) ##
+## 这里是[破解过程](http://note.guotianyu.cn/diary/14.html) ##
 
 ####这个是基于官方破解版，可以无限试用，可以安装插件<br>[官网](https://www.icecoder.net)<br>[Demo](http://demo.icecoder.net/ICEcoder/)
 
