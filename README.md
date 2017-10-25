@@ -4,8 +4,7 @@
 
 ####这个是基于官方破解版，可以无限试用，可以安装插件<br>[官网](https://www.icecoder.net)<br>[Demo](http://demo.icecoder.net/ICEcoder/)
 
-###默认登陆密码是12345678
-
+### 以下是官方介绍
 ICEcoder is a web IDE / browser based code editor, which allows you to develop websites directly within the web browser. It uses the brilliant CodeMirror for code highlighting & editing, with a slick IDE wrapped around it to make the whole thing work.
 
 <img src="https://icecoder.net/images/icecoder-v5-7-browser-code-editor.png" alt="ICEcoder web IDE">

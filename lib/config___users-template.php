@@ -1,8 +1,8 @@
 <?php
 $ICEcoderUserSettings = array(
-"versionNo"		=> "5.7",
-"licenseEmail"		=> "",
-"licenseCode"		=> "",
+"versionNo"		=> "6.0",
+"licenseEmail"		=> "v6free@icecoder.net",
+"licenseCode"		=> "93be18fba1dee0e186031907422a0f8df3462568bfd0161e1504",
 "configCreateDate"	=> 0,
 "root"			=> "",
 "checkUpdates"		=> true,
@@ -25,13 +25,13 @@ $ICEcoderUserSettings = array(
 "autoLogoutMins"	=> 0,
 "theme"			=> "default",
 "fontSize"		=> "13px",
-"lineWrapping"		=> true,
+"lineWrapping"		=> false,
 "lineNumbers"		=> true,
 "showTrailingSpace"	=> true,
 "matchBrackets"		=> true,
 "autoCloseTags"		=> true,
 "autoCloseBrackets"	=> true,
-"indentWithTabs"	=> true,
+"indentWithTabs"	=> false,
 "indentAuto"		=> true,
 "indentSize"		=> 4,
 "pluginPanelAligned"	=> "left",
@@ -44,6 +44,7 @@ $ICEcoderUserSettings = array(
 "githubLocalPaths"	=> array(),
 "githubRemotePaths"	=> array(),
 "previousFiles"		=> "",
-"last10Files"		=> ""
+"last10Files"		=> "",
+"favoritePaths"		=> array()
 );
 ?>

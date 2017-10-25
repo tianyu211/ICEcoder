@@ -108,9 +108,15 @@ if ($_GET['action']=="load") {
 			$loadedFile = toUTF8noBOM(getData($file),true);
 		}
 			$encoding=ini_get("default_charset");
-			if($encoding=="")
+			if($encoding=="") {
 				$encoding="UTF-8";
-			echo '</script><textarea name="loadedFile" id="loadedFile">'.htmlentities($loadedFile,ENT_COMPAT,$encoding).'</textarea><script>';
+			}
+			// Get content and set HTML entities on it according to encoding
+			$loadedFile = htmlentities($loadedFile,ENT_COMPAT,$encoding);
+			// Remove \r chars and replace \n with carriage return HTML entity char
+			$loadedFile = preg_replace('/\\r/','',$loadedFile);
+			$loadedFile = preg_replace('/\\n/','&#13;',$loadedFile);
+			echo '</script><textarea name="loadedFile" id="loadedFile">'.$loadedFile.'</textarea><script>';
 			// Run our custom processes
 			include_once("../processes/on-file-load.php");
 		} else if (strpos($finfo,"image")===0) {

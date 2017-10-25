@@ -54,10 +54,11 @@ $prevFilesAvail = rtrim($prevFilesAvail,",");
 $ICEcoderUserSettings['previousFiles'] = $prevFilesAvail;
 
 // Replace our config created date with the filemtime?
-if (true) {
+//if (basename($_SERVER['SCRIPT_NAME']) == "index.php" && $ICEcoderUserSettings['configCreateDate'] == 0) {
+if(true){
 	$settingsContents = getData(dirname(__FILE__)."/".$settingsFile);
 	clearstatcache();
-	$configfilemtime = time();
+	$configfilemtime = time();//filemtime(dirname(__FILE__)."/"."config___settings.php");
 	// Make it a number (avoids null, undefined etc)
 	$configfilemtime = intval($configfilemtime);
 	// Set it to the epoch time now if we don't have a real value
